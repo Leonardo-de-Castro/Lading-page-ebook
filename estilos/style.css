@@ -5,7 +5,9 @@
     margin: 0px;
     padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
+   
     }
+
 
 head {
     display: none;
@@ -20,6 +22,10 @@ body {
     text-align: center;
     }
 
+    header {
+        display: block;
+    }
+
 #mostruario {
     min-height: 450px;
     color: white;
@@ -30,16 +36,16 @@ body {
     position: absolute;
     background: #333 url(../imagens/imagem\ de\ fundo.jpg);
     width: 100%;
-    height: 550px;
+    height: 600px;
     background-position:center;
     background-repeat: no-repeat ;
     background-size: cover;
     z-index: -1;
-    opacity: 0.6;
+    opacity: 0.4;
 }
 
 #mostruario .quebra-de-conteudo {
-    padding: 1.5em;
+    padding: 0 1.5em;
 }
 
 h1 {
@@ -108,18 +114,25 @@ h2 {
 
 ul {
     list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
 }
 
 li {
     display: list-item;
-    text-align: 'webkit-match-parent';
+    text-align: -webkit-match-parent;
 }
 
 #secao-b li {
     margin-bottom: 1em;
-    background: #f5f100;
-    color: #4858e4;
+    background: #f1f50386;
+    color: #f8f8f8;
 }
+
+
 
 img {
     display: block;
@@ -146,10 +159,12 @@ h3 {
 }
 
 #secao-c {
+    
     background: #fff;
     color: #333;
     padding: 2em;
 }
+
 
 
 #secao-e .caixa {
@@ -177,6 +192,12 @@ a:-webkit-any-link {
     cursor: pointer;
     text-decoration: underline;
 }
+
+a:hover {
+    background-color: #d3d3d3;
+    color: #000;
+    }
+    
 
 #rodape-principal a {
     color: #4858e4;
