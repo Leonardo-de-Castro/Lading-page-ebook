@@ -8,6 +8,9 @@
    
     }
 
+html {
+    display: block;
+}
 
 head {
     display: none;
@@ -22,8 +25,8 @@ body {
     text-align: center;
     }
 
-    header {
-        display: block;
+header {
+    display: block;
     }
 
 #mostruario {
@@ -60,6 +63,11 @@ h1 {
 #mostruario h1 {
     padding-top: 100px;
     padding-bottom: 0px;
+}
+
+h1, h2, h3 {
+    margin: 0;
+    padding: 1em 0;
 }
 
 p {
